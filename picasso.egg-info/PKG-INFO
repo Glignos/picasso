@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: picasso
+Version: 1.0.0
+Summary: Invenio digital library framework.
+Home-page: https://github.com/picasso/picasso
+Author: CERN
+Author-email: info@picasso.com
+License: MIT
+Description: ..
+            Copyright (C) 2019 CERN.
+        
+            picasso is free software; you can redistribute it and/or modify it
+            under the terms of the MIT License; see LICENSE file for more details.
+        
+        =========
+         picasso
+        =========
+        
+        .. image:: https://img.shields.io/travis/picasso/picasso.svg
+                :target: https://travis-ci.org/picasso/picasso
+        
+        .. image:: https://img.shields.io/coveralls/picasso/picasso.svg
+                :target: https://coveralls.io/r/picasso/picasso
+        
+        .. image:: https://img.shields.io/github/license/picasso/picasso.svg
+                :target: https://github.com/picasso/picasso/blob/master/LICENSE
+        
+        Invenio digital library framework.
+        
+        Further documentation is available on
+        https://picasso.readthedocs.io/
+        
+        
+Keywords: picasso Invenio
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 3 - Alpha

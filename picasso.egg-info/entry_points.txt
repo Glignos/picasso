@@ -1,0 +1,28 @@
+[console_scripts]
+picasso = invenio_app.cli:cli
+
+[invenio_assets.webpack]
+picasso_theme = picasso.theme.webpack:theme
+
+[invenio_base.api_apps]
+picasso = picasso.records:picasso
+
+[invenio_base.apps]
+picasso_records = picasso.records:picasso
+
+[invenio_base.blueprints]
+picasso = picasso.theme.views:blueprint
+picasso_records = picasso.records.views:blueprint
+
+[invenio_config.module]
+picasso = picasso.config
+
+[invenio_i18n.translations]
+messages = picasso
+
+[invenio_jsonschemas.schemas]
+picasso = picasso.records.jsonschemas
+
+[invenio_search.mappings]
+records = picasso.records.mappings
+
